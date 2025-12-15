@@ -15,11 +15,11 @@ This function is used to create a brand new board array with the tokens in the c
 
 ## print_board
 This function is used to print a board that has been passed to it onto the command line using ASCII values. It does this by iterating through and printing row by row based on the contents of the board. This can be used again each time the board is updated to show new player moves. It is printed line by line for each row as just displaying a raw matrix can be confusing and it clutters the command line.
-![e087c0d3639611a6de78af8e86d9ed3b.png](../_resources/e087c0d3639611a6de78af8e86d9ed3b.png)
+![e087c0d3639611a6de78af8e86d9ed3b.png](/_resources/e087c0d3639611a6de78af8e86d9ed3b.png)
 
 ## legal_move
 This function is used to check the legality of a particular move that the player has chosen. It takes the board, the players colour and also a tuple of coordinates to make sure the move trying to be made is actually allowed. It returns a True or False boolean value.
-![83f51d7326f7bac33f6118ecf9778d9d.png](../_resources/83f51d7326f7bac33f6118ecf9778d9d.png)
+![83f51d7326f7bac33f6118ecf9778d9d.png](/_resources/83f51d7326f7bac33f6118ecf9778d9d.png)
 
 ## possible_legal_moves
 This funtion behaves in a similar way to legal_move but it does it for each value on the board depending on player colour to check if the player has any possible moves available left. Though there are possibly more efficient ways of doing this, it covers the entire board meaning players can be sure that there are no missed legal moves that they could perform.
